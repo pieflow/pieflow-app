@@ -1,0 +1,27 @@
+{
+    "name": "pieflow-app",
+    "description": "A toolbox for DevOps/monitoring and CI/CD.",
+    "version": "1.0.0",
+    "author": {
+        "email": "kosmas.papadatos@gmail.com",
+        "name": "Kosmas Papadatos",
+        "url": "https://github.com/kpapadatos"
+    },
+    "repository": {
+        "url": "https://github.com/pieflow/pieflow-app",
+        "type": "git"
+    },
+    "main": "main.js",
+    "dependencies": {
+        "auto-launch": "^5.0.5",
+        "custom-electron-titlebar": "^3.0.10",
+        "electron-squirrel-startup": "^1.0.0",
+        "update-electron-app": "^1.4.2"
+    },
+    "devDependencies": {
+        "electron": "^5.0.6",
+        "del": "^4.1.1",
+        "electron-packager": "^14.0.0",
+        "electron-winstaller": "^3.0.4"
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html style="background: #3a3a3a;">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PieFlow</title>
+    <style>
+        html,
+        body,
+        #appWebview {
+            background: #3a3a3a;
+            font: menu;
+            margin: 0px;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: calc(100% - 30px);
+            border: none;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        require('./renderer.js');
+        document.title = process.argv.join(' ');
+    </script>
+    <webview id="appWebview" src="https://pieflow.com" partition="persist:default"></webview>
+</body>
+
+</html>

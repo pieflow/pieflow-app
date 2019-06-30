@@ -1,0 +1,1 @@
+signtool.exe sign /ac "MSCV-VSClass3.cer" /f "cert.pfx" /p "123qwe!@#ASD" /n "Pobuca Ltd" /tr "http://sha256timestamp.ws.symantec.com/sha256/timestamp" /fd sha256 /debug /v "pieflow-setup-1.0.0.exe"
