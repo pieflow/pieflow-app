@@ -1,7 +1,7 @@
 {
     "name": "pieflow-app",
     "description": "A toolbox for DevOps/monitoring and CI/CD.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": {
         "email": "kosmas.papadatos@gmail.com",
         "name": "Kosmas Papadatos",

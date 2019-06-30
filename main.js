@@ -17,6 +17,8 @@ function createWindow() {
     mainWindow = new BrowserWindow({
         width: 1300,
         height: 800,
+        minWidth: 1300,
+        minHeight: 800,
         frame: false,
         titleBarStyle: 'hidden',
         icon: path.join(__dirname, 'assets/beat.ico'),
